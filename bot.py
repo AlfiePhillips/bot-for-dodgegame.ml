@@ -1,4 +1,5 @@
 import pyautogui
+import time
 
 def num1Press(x, y):
     pyautogui.press("num1")
