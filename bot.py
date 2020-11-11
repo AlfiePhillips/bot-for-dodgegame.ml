@@ -5,7 +5,7 @@ def num1Press(x, y):
 
 def num2Press(x, y):
     pyautogui.press("num2")
-
+time.sleep(5) #gives time for you to go on the website after running.
 while(1):
     if pyautogui.pixel(780, 750)[0] > 150:
             num2Press(960, 750)
